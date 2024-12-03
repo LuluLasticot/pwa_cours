@@ -11,8 +11,7 @@ const ajax = () => {
         response.forEach(data => {
             const template = `
                 <article class="article">
-                    <div class="" style="height: 200px;">
-                    <img src ="${data.image}" alt="Photo de ${data.title}"</div>
+                    <div class="" style="height: 200px;"><img src ="${data.image}" alt="Photo de ${data.title}"</div>
                     <div class="article-title">${data.title1}</div>
                     <div class="article-subtitle">${data.title2}</div>
                     <div class="article-content">${data.content}</div>
